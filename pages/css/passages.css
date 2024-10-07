@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Console', 'Lucida Sans Typewriter', monospace;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.article-box {
+    background-color: #fff; /* White background for the box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 80%;
+    max-width: 600px; /* Maximum width for the box */
+    margin-bottom: 20px; /* Space between boxes */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.author, .date, .content {
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.content {
+    line-height: 1.6;
+    text-align: left;
+}
+
